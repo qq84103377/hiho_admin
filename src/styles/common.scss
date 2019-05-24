@@ -1,0 +1,186 @@
+//颜色类
+
+//系统颜色
+.sysBlack{color: $sysBlack;}
+.sysGolden{color: $sysGolden;}
+.ysLightGreen{color: $sysLightGreen;}
+.sysDarkGreen{color:$sysDarkGreen;}
+.sysBlue{color:$sysBlue;}
+.sysRed{color:$sysRed;}
+
+
+//文本颜色
+.mainText{color:$mainText} //主文本
+.functionText{color:$functionText} //功能文本
+.auxiliaryText{color:$auxiliaryText} //辅助文本
+.placeholderText{color:$placeholderText} //占位文本
+
+
+//线条颜色
+.inputBorder{border-color: $inputBorder} //输入框边框
+.divideBorder{border-color: $divideBorder} //分割线、表格表框
+.imgBorder{border-color: $imgBorder} //图片边框
+
+//背景色
+.mainBg{background-color: $mainBg;} //大背景色
+.lightBg{background-color: $lightBg;} //浅背景色
+.hoverBg{background-color: $hoverBg;} //hover背景色
+
+
+//font-size
+.fs12{
+  font-size: 12px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs16{
+  font-size: 16px;
+}
+.fs18{
+  font-size: 18px;
+}
+.fs24{
+  font-size: 24px;
+}
+
+
+//magin
+.mgb8{
+  margin-bottom:8px;
+}
+.mg16{
+  margin: 16px;
+}
+.mgl5{
+  margin-left: 5px;
+}
+.mgl16{
+  margin-left: 16px;
+}
+.mgt8{
+  margin-top: 8px;
+}
+.mgl32{
+  margin-left: 32px;
+}
+.mgr16{
+  margin-right: 16px;
+}
+.mgr10{
+  margin-right: 10px;
+}
+.mgr5{
+  margin-right: 5px;
+}
+.mgt16{
+  margin-top: 16px;
+}
+.mgt20{
+  margin-top: 20px;
+}
+.mgt24{
+  margin-top: 24px;
+}
+.mgb16{
+  margin-bottom: 16px;
+}
+.mgb20{
+  margin-bottom: 20px;
+}
+.mgl12{
+  margin-left:12px;
+}
+
+
+
+//padding
+.pdt8{
+  padding-top: 8px;
+}
+.pdb8{
+  padding-bottom: 8px;
+}
+.pd16{
+  padding: 16px;
+}
+.pdt16{
+  padding-top: 16px;
+ }
+.pdl16{
+  padding-left: 16px;
+}
+.pdlr32{
+  padding: 0 32px;
+}
+.pdr60{
+  padding-right: 60px;
+}
+.pdl32{
+  padding-left:32px;
+}
+.pdb40{
+  padding-bottom: 40px;
+}
+
+
+//line-height
+.lh18{
+  line-height:18px;
+}
+.lh20{
+  line-height:20px;
+}
+
+.lh32{
+  line-height:32px;
+}
+.lh40{
+  line-height:40px;
+}
+
+//border
+.borderAll{
+  border:1px solid $divideBorder
+}
+.borderT{
+  border-top:1px solid $divideBorder
+}
+.borderB{
+  border-bottom:1px solid $divideBorder
+}
+.borderL{
+  border-left:1px solid $divideBorder
+}
+.borderR{
+  border-right:1px solid $divideBorder
+}
+
+
+.posR{
+  position:relative;
+}
+.posA{
+  position:absolute;
+}
+
+.float-left{
+  float:left;
+}
+.float-right{
+  float:right;
+}
+
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+
+.pointer{
+  cursor: pointer;
+}
